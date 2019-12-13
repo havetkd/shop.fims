@@ -434,11 +434,13 @@
               <span>#평가관리</span>
               </a>
             <ul class="sub">
-              <li><a href="/statistics/festivalBudgetAnalysisView">#축제별 예산액 분석</a></li>
-              <li><a href="/statistics/festivalExecutionAnalysisView">#축제별 집행액 분석</a></li>
-              <li><a href="/statistics/festivalAnalysisView">#축제분석</a></li>
-              <li><a href="/statistics/accountAnalysisView">#거래처분석</a></li>
-              <li><a href="/statistics/festivalEvaluationAnalysisView">#축제평가분석</a></li>
+              <li><a th:href="@{estimatelist}">#전체심사</a></li>              
+              <li><a th:href="@{finalestimatelist}">#완료심사</a></li>
+              <li><a th:href="@{/statistics/festivalBudgetAnalysisView}">#축제별 예산액 분석</a></li>
+              <li><a th:href="@{/statistics/festivalExecutionAnalysisView}">#축제별 집행액 분석</a></li>
+              <li><a th:href="@{/statistics/festivalAnalysisView}">#축제분석</a></li>
+              <li><a th:href="@{/statistics/accountAnalysisView}">#거래처분석</a></li>
+              <li><a th:href="@{/statistics/festivalEvaluationAnalysisView}">#축제평가분석</a></li>
             </ul>
           </li>
           <li class="sub-menu">
