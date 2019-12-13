@@ -1,4 +1,4 @@
-package shop.fims.OprateController;
+package shop.fims.OperateController;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +8,8 @@ public class Oprate_SystemMnageController {
 	
 	@GetMapping("/SystemManageView")
 	public String SystemManageView() {
-		return "/oprate/SystemManageView";	
+		return "/oprate_systemmanage/SystemManageView";
+		
 	}
 	
 }
