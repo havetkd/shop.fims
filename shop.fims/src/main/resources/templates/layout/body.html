@@ -386,10 +386,10 @@
               <span>#축제모든물품관리</span>
               </a>
             <ul class="sub">
-              <li><a href="#">#</a></li>
-              <li><a href="#">#</a></li>
-              <li><a href="#">#</a></li>
-              <li><a href="#">#</a></li>
+             <li><a th:href="@{/conditionlist}">#물품관리</a></li>
+             <li><a th:href="@{/delbrelist}">#계약물품납품 내역관리</a></li>
+             <li><a th:href="@{/revenuelist}">#보유물품 대여관련 세입관리</a></li>
+             
             </ul>
           </li>
           <li class="sub-menu">
@@ -431,14 +431,12 @@
           <li class="sub-menu">
             <a href="javascript:;">
               <i class=" fa fa-plus-square"></i>
-              <span>#평가관리</span>
-              </a>
+              <span>#심사관리</span>
+              </a>            
             <ul class="sub">
-              <li><a href="/statistics/festivalBudgetAnalysisView">#축제별 예산액 분석</a></li>
-              <li><a href="/statistics/festivalExecutionAnalysisView">#축제별 집행액 분석</a></li>
-              <li><a href="/statistics/festivalAnalysisView">#축제분석</a></li>
-              <li><a href="/statistics/accountAnalysisView">#거래처분석</a></li>
-              <li><a href="/statistics/festivalEvaluationAnalysisView">#축제평가분석</a></li>
+              <li><a th:href="@{estimatelist}">#전체심사</a></li>              
+              <li><a th:href="@{finalestimatelist}">#완료심사</a></li>
+              
             </ul>
           </li>
           <li class="sub-menu">
